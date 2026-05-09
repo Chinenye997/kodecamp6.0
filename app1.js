@@ -67,38 +67,31 @@ console.log(Number.isInteger(score));
 // Grade remark using if statement
 // ==================================
 
-// Declare a variable for score
 let marks = 75;
 
 // Check if score is valid
 if (marks >= 70 && marks <= 100) {
 
-    // Print Excellent for scores between 70 and 100
     console.log("Excellent");
 
 } else if (marks >= 60 && marks <= 69) {
 
-    // Print Very good for scores between 60 and 69
     console.log("Very good");
 
 } else if (marks >= 50 && marks <= 59) {
 
-    // Print Good for scores between 50 and 59
     console.log("Good");
 
 } else if (marks >= 40 && marks <= 49) {
 
-    // Print Poor for scores between 40 and 49
     console.log("Poor");
 
 } else if (marks >= 0 && marks <= 39) {
 
-    // Print Very poor for scores between 0 and 39
     console.log("Very poor");
 
 } else {
 
-    // Print Invalid score if less than 0 or greater than 100
     console.log("Invalid score");
 
 }
